@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html style="background-color: #0E0E0E;" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./main.css">
+    <title>Counter</title>
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     
+    <main class="main">
+        <section class="counter">
+                <div class="counter__wrapper">
+                    <p class="counter__text">Counter</p>
+                    <p class="counter__title">0</p>
+                    <div class="counter__btn">
+                        <button onclick="dec()">
+                            <p>Decrease</p>
+                        </button>
+                        <button onclick="reset()">
+                            <p>Reset</p>
+                        </button>
+                        <button onclick="inc()">
+                            <p>Increase</p>
+                        </button>
+                    </div>
+                </div>
+        </section>
+    </main>
 
     <script src="./app.js"></script>
 </body>
